@@ -5,7 +5,7 @@ import numpy as np
 
 
 # Load your trained model
-model = tf.keras.models.load_model("C:\\Users\\91963\\Downloads\\pothole_detection12_model (1).h5")
+model = tf.keras.models.load_model("pothole_detection12_model (1).h5")
 
 # Define the labels
 labels = ['not_pothole', 'pothole']
