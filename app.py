@@ -51,6 +51,7 @@ def main():
 
         # Display the uploaded image and the predicted label
         st.image(image, caption=f'Uploaded Image ({predicted_label})', use_column_width=True)
+        st.write(predicted_label)
         
 
 
